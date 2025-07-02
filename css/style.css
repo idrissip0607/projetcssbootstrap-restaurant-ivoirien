@@ -11,7 +11,7 @@
 
 
 .hero{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/Abt.jpg);
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +47,11 @@
 .menu-container{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.learnmore:hover{
+    color: var(---iconbgcolor);
+    transition: .7s ease;
 }
 
 #about{
